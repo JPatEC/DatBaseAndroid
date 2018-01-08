@@ -1,0 +1,46 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.patrick.datbaseandroid.main.InsertActivity"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/idName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NAME"/>
+        <EditText
+            android:id="@+id/idSurName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SURNAME"/>
+        <EditText
+            android:id="@+id/idDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DESCRIPTION"/>
+        <Button
+            android:id="@+id/btnStudents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insertar Students" />
+        <Button
+            android:id="@+id/btnReadStudents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leer Students" />
+        <Button
+            android:id="@+id/btnUpdateStudents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar Students" />
+
+        <Button
+            android:id="@+id/btnDeleteStudents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Borrar Students" />
+
+    </LinearLayout>

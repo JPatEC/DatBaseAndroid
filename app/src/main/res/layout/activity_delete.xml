@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.patrick.datbaseandroid.main.DeleteActivity"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/idID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"/>
+    <Button
+        android:id="@+id/btnDeleteStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFCC65"
+        android:text="Borrar Students" />
+</LinearLayout>

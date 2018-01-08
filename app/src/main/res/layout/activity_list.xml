@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.patrick.datbaseandroid.main.ListActivity"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/idResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+</LinearLayout>

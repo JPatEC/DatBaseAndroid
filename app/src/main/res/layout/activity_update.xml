@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.patrick.datbaseandroid.main.UpdateActivity"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/idID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"/>
+    <EditText
+        android:id="@+id/idName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAME"/>
+    <EditText
+        android:id="@+id/idSurName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SURNAME"/>
+    <EditText
+        android:id="@+id/idDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DESCRIPTION"/>
+    <Button
+        android:id="@+id/UpdateStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFCC65"
+        android:text="Actualizar Students" />
+
+</LinearLayout>
