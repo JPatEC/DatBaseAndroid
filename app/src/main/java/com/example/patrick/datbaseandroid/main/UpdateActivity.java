@@ -36,7 +36,7 @@ public class UpdateActivity extends AppCompatActivity {
                 ClikMe();
             }
         });
-
+        myDb = new DBHelper(this);
 
     }
     private void ClikMe(){

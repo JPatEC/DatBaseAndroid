@@ -1,7 +1,7 @@
 package com.example.patrick.datbaseandroid.main;
 
-import android.app.ListActivity;
 import android.content.Intent;
+import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -42,8 +42,8 @@ public class InsertActivity extends AppCompatActivity {
         btnReadStudents.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btnReadStudets= new Intent(InsertActivity.this,ListActivity.class);
-                startActivity(btnReadStudets);
+                Intent leer= new Intent(v.getContext(),ListActivity.class);
+                startActivity(leer);
             }
         });
       //button update
